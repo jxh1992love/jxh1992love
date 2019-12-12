@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<title>FROM 2019.11.10</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="snow/js/snow.js"></script>
+<script src="js/jumble.min.js"></script>
+
+<style>
+body, html {height: 100%; margin: 0;}
+body {background-color: rgb(0,0,0);}
+#bgimg {
+    background-image: url(png/bg.jpg);
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.boy {
+  position: fixed;
+  top: 10px;
+  left: 5px;
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  border-color: blue;
+  border-style: dotted;
+  border-width: 3px;
+  overflow: hidden;
+  border: 0% solid rgb(205,60,70);
+}
+.boy .photo {
+  height: 100%;
+  width: 100%;
+}
+.girl {
+  position: fixed;
+  top: 10px;
+  right: 5px;
+  height: 80px;
+  width: 80px;
+  border-color: pink;
+  border-radius: 40px;
+  border-style: dotted;
+  border-width: 3px;
+  overflow: hidden;
+  border: 0% solid rgb(205,60,70);
+}
+.girl .photo {
+  height: 100%;
+  width: 100%;
+}
+
+#timer {
+  position: fixed;
+  bottom: 5px;
+  left: 50px;
+  color: white;
+  font-family:"Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";
+  font-size:30px;
+}
+
+#tip {
+  position: absolute;
+  margin: auto;
+  height: 100px;
+  widows: 100%;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  text-align: center;
+  font-size: 3.5em;
+}
+#loveu {
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  font-size: 1em;
+}
+</style>
+
+<body>
+<!--背景图片-->
+<div id="bgimg">
+
+<!--背景音乐-->
+<audio id="bgmusic" src="http://www.tingge123.com/mp3/2017-09-18/1505664605.mp3" autoplay="autoplay" loop='-1'></audio>
+<!-- 圣诞mp3 http://happynewyear.musictea.com/ccc0b52f99dcdb6b0ba301dab4829557.mp3 -->
+<!-- 带你去旅行 http://www.tingge123.com/mp3/2017-09-18/1505664605.mp3 -->
+
+<!--头像-->
+
+<div class="avatar boy">
+  <img class="photo" src="png/boy.jpg"/>
+</div>
+<div class="avatar girl" style="float: right">
+  <img class="photo" src="png/girl.jpg">
+</div>
+
+<div id="tip">
+<font>茸茸和厚厚的时光屋</font>
+</div>
+<div id="loveu">
+    <!--font>有茸茸的地方就有家！</font-->
+</div>
+
+<!--计时-->
+<div class="jumble" id="lovetimer">
+<p id="timer">^_^</p>
+</div>
+
+<script type="text/javascript">
+/*随机背景*/
+//var index = parseInt(Math.random()*(2));
+//document.getElementById("bgimg").style.backgroundImage = 'url(png/bg'+index+'.jpg)';
+
+/*计时*/
+var message = document.getElementById("message");
+var timer = document.getElementById("timer");
+// 设置起始日期
+var startDate = new Date();
+startDate.setFullYear(2019,10,10);
+startDate.setHours(20);
+startDate.setMinutes(59);
+startDate.setSeconds(0);
+var Dmms = startDate.getTime();
+setInterval(function(){
+// 秒数差
+var d = new Date();
+var Gmms = d.getTime();
+var distancemms = (Gmms - Dmms)/1000;
+var days = parseInt(distancemms/(3600*24));
+var hours = parseInt((distancemms%(3600*24))/3600);
+var minutes = parseInt((distancemms%3600)/60);
+var seconds = parseInt((distancemms%60));
+var text = days+"天"+hours+"时"+minutes+"分"+seconds+"秒";
+$("#timer").html(text);
+},1000);
+
+/*文字动画*/
+$('#tip').jumble([180,160,90],[230,20,130],true,false,200);
+$('#loveu').jumble([180,180,90],[130,20,230],true,false,1000);
+
+/*雪花*/
+createSnow('', 60);
+
+/* 微信中播放音乐 */
+function autoPlayAudio1() {
+        wx.config({
+            // 配置信息, 即使不正确也能使用 wx.ready
+            debug: false,
+            appId: '',
+            timestamp: 1,
+            nonceStr: '',
+            signature: '',
+            jsApiList: []
+        });
+        wx.ready(function() {
+            document.getElementById('bgmusic').play();
+        });
+}
+autoPlayAudio1();
+</script>
+</body>
+</html>

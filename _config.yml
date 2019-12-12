@@ -1,0 +1,93 @@
+# Site settings
+title: 漫天繁星，吾心向茸
+SEOTitle: 漫天繁星，吾心向茸
+header-img: img/home-bg.jpg
+email: jiangxinhou@outlook.com
+description: "漫天繁星，吾心向茸"
+keyword: "游记"
+url: ""              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+# SNS settings
+RSS: false
+weibo_username:
+zhihu_username:     Jiangxh1992
+github_username:    jiangxh1992
+#twitter_username:   Jiang Xinhou
+facebook_username:  JiangXinhou
+linkedin_username:  信厚-蒋-13745212a?trk=nav_responsive_tab_profile_pic
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+disqus_username: #Jiangxh
+
+# Netease setttings
+netease_comment: false
+
+
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
+# Google Analytics
+ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_domain: huangxuan.me
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "漫天繁星<br>吾心向茸"
+sidebar-avatar: /img/avatar-jxh.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "蒋信厚BLOG",
+        href: "http://blog.csdn.net/cordova"
+    },
+    {
+        title: "最好金龟换酒",
+        href: "http://fz0512.com"
+    }
+]
