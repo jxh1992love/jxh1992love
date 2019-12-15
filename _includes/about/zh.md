@@ -1,7 +1,7 @@
 
 # 厚厚 ❤️ 茸茸
 
-![](flower.jpg)
+![](https://jxh1992love.github.io/img/flower.jpg)
 
 <hr>
 
@@ -9,16 +9,16 @@
 
 茫茫人海，幸好手没抖，才让我有机会遇到这么好的你。到现在都后怕，若是当时划错了那得是这辈子多大的可惜，我又将何去何从？
 
-<img src="20191110.jpg" width="480">
+<img src="https://jxh1992love.github.io/img/20191110.jpg" width="480">
 
 ## 2019.11.17 你送我的第一个生日礼物
 
 2019真的是太幸运，最幸运的莫过于在28岁生日有了你，也是我过的最开心的一个生日，一个美好的回忆。谢谢你的体贴，谢谢你的用心，谢谢你给的感动❤️
 
-<img src="cup.jpg" width="480">
+<img src="https://jxh1992love.github.io/img/cup.jpg" width="480">
 
 ## 2019.11.20 送你的第一束花
 
 那天你很开心。我很幸福。
 自此有了：满天繁星，吾心向茸。自此你是我心里的唯一。
-<img src="firstflower.jpg" width="480">
+<img src="https://jxh1992love.github.io/img/firstflower.jpg" width="480">
