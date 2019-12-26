@@ -48,6 +48,20 @@
 <img src="https://jxh1992love.github.io/img/roman3.jpg" width="320">
 <img src="https://jxh1992love.github.io/img/roman4.jpg" width="320">
 
+## 2019.12.25 终生难忘的相见👫
 
+看到你的第一眼，被你的美丽和可爱惊喜到。
+
+瞬间心被你俘虏。
+
+圣诞夜，小雨，天气冷冷的，湿湿的，
+
+心里却暖暖的，小鹿乱撞的感觉，被幸福感紧紧包围。
+
+那一夜，如梦如幻，想永远抱着你不松手，
+
+刚一分开，就格外难受。。。
+
+<img src="https://jxh1992love.github.io/img/20191225.jpg" width="640">
 
 ## THEN...
