@@ -1,9 +1,4 @@
 
-# 厚厚 ❤️ 茸茸
-
-![](https://jxh1992love.github.io/img/flower.jpg)
-
-
 <img src="http://img.zcool.cn/community/0186b858bccb83a801219c77ff698f.gif" width="200">
 
 > 时光屋入口：　[FROM 2019.11.10](https://jxh1992love.github.io/lover/rong.html)
