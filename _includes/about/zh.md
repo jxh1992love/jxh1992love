@@ -32,6 +32,7 @@
 2019年的尾声，那是个美好的在一起的周末，也是暴风雨的前夕。被你亲了一圈的草莓🍓
 
 <img src="https://jxh1992love.github.io/img/20191228.jpg" width="320">
+<img src="https://jxh1992love.github.io/img/2019122801.jpg" width="320">
 
 ## 2019.12.25 终生难忘的相见👫
 
