@@ -33,9 +33,6 @@
 
 <img src="https://jxh1992love.github.io/img/20191228.jpg" width="320">
 
-<img src="https://jxh1992love.github.io/img/2019122801.jpg" width="320">
-
-
 ## 2019.12.25 终生难忘的相见👫
 
 看到你的第一眼，被你的美丽和可爱惊喜到。
