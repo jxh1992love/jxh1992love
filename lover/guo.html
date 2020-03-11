@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
-<title>FROM 2019.11.10</title>
+<title>FROM 2020.02.14</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script src="snow/js/snow.js"></script>
-<script src="fireworks/js/jquery.fireworks.js"></script>
 
 <script src="js/jumble.min.js"></script>
 
@@ -85,8 +84,6 @@ body {background-color: rgb(0,0,0);}
 </style>
 
 <body>
-<!--- 烟花 -->
-<div class="fireworks"></div>
 
 <!--背景图片-->
 <div id="bgimg" src="">
@@ -106,10 +103,10 @@ body {background-color: rgb(0,0,0);}
 </div>
 
 <div id="tip">
-<font>茸茸和厚厚的时光屋</font>
+<font>时光屋</font>
 </div>
 <div id="loveu">
-    <!--font>有茸茸的地方就有家！</font-->
+    <!--font>有你的地方就有家！</font-->
 </div>
 
 <!--计时-->
@@ -127,7 +124,7 @@ var message = document.getElementById("message");
 var timer = document.getElementById("timer");
 // 设置起始日期
 var startDate = new Date();
-startDate.setFullYear(2019,10,10);
+startDate.setFullYear(2020,1,14);
 startDate.setHours(20);
 startDate.setMinutes(59);
 startDate.setSeconds(0);
@@ -150,7 +147,7 @@ $('#tip').jumble([180,160,90],[230,20,130],true,false,200);
 $('#loveu').jumble([180,180,90],[130,20,230],true,false,1000);
 
 /*雪花*/
-//createSnow('', 60);
+createSnow('', 60);
 
 /* 烟花 */
 $('.fireworks').fireworks({ 
